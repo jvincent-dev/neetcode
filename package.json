@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/jvincent-dev/neetcode.git"
   },
-  "keywords": [],
+  "keywords": ["neetcode", "leetcode", "javascript", "jest", "nodejs"],
   "author": "jvincent-dev",
   "license": "ISC",
   "bugs": {
