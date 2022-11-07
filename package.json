@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "My solutions to problems from https://neetcode.io/practice",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "test": "jest"
@@ -19,6 +20,10 @@
   },
   "homepage": "https://github.com/jvincent-dev/neetcode#readme",
   "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
     "jest": "^29.2.2"
   }
 }
