@@ -1,4 +1,4 @@
-import { groupAnagramsSort, groupAnagramsCount } from "../ArraysAndHashing/groupAnagrams";
+import { groupAnagramsSort, groupAnagramsCount } from "../../ArraysAndHashing/groupAnagrams";
 
 const tests = [
     {

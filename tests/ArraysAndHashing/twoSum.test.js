@@ -1,4 +1,4 @@
-import { twoSum } from "../ArraysAndHashing/twoSum";
+import { twoSum } from "../../ArraysAndHashing/twoSum";
 
 const tests = [
     {

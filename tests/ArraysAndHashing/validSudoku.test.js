@@ -1,4 +1,4 @@
-import { isValidSudoku } from "../ArraysAndHashing/validSudoku";
+import { isValidSudoku } from "../../ArraysAndHashing/validSudoku";
 
 const tests = [
     {

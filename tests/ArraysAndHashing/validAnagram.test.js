@@ -1,4 +1,4 @@
-import { isValidAnagramSort, isValidAnagramCount } from "../ArraysAndHashing/validAnagram";
+import { isValidAnagramSort, isValidAnagramCount } from "../../ArraysAndHashing/validAnagram";
 
 const tests = [
     {

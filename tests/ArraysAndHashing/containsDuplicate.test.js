@@ -1,4 +1,4 @@
-import { containsDuplicateSort, containsDuplicateSet } from "../ArraysAndHashing/containsDuplicate";
+import { containsDuplicateSort, containsDuplicateSet } from "../../ArraysAndHashing/containsDuplicate";
 
 const tests = [
     {

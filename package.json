@@ -11,7 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/jvincent-dev/neetcode.git"
   },
-  "keywords": ["neetcode", "leetcode", "javascript", "jest", "nodejs"],
+  "keywords": [
+    "neetcode",
+    "leetcode",
+    "javascript",
+    "jest",
+    "nodejs"
+  ],
   "author": "jvincent-dev",
   "license": "ISC",
   "bugs": {
@@ -23,6 +29,6 @@
     "@babel/core": "^7.20.2",
     "@babel/node": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
-    "jest": "^29.2.2"
+    "jest": "^29.3.1"
   }
 }

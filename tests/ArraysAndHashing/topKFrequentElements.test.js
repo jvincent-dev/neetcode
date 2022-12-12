@@ -1,4 +1,4 @@
-import { topKFrequentElementsMap, topKFrequentElementsReverseMap } from "../ArraysAndHashing/topKFrequentElements";
+import { topKFrequentElementsMap, topKFrequentElementsReverseMap } from "../../ArraysAndHashing/topKFrequentElements";
 
 const tests = [
     {

@@ -1,4 +1,4 @@
-import { longestConsecutiveSequence, longestConsecutiveSequenceBucket } from "../ArraysAndHashing/longestConsecutiveSequence";
+import { longestConsecutiveSequence, longestConsecutiveSequenceBucket } from "../../ArraysAndHashing/longestConsecutiveSequence";
 
 const tests = [
     {

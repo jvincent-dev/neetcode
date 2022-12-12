@@ -1,7 +1,7 @@
 import {
     productOfArrayExceptSelf,
     productOfArrayExceptSelfOptimized
-} from "../ArraysAndHashing/productOfArrayExceptSelf";
+} from "../../ArraysAndHashing/productOfArrayExceptSelf";
 
 const tests = [
     {
