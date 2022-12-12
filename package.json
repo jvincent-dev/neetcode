@@ -3,9 +3,8 @@
   "version": "0.0.1",
   "description": "My solutions to problems from https://neetcode.io/practice",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "node --experimental-modules --es-module-specifier-resolution=node index.js",
+    "start": "babel-node index.js",
     "test": "jest"
   },
   "repository": {
