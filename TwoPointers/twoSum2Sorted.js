@@ -8,7 +8,7 @@
  * Your solution must use only constant extra space.
  */
 
-/**
+/** takes in an array of numbers and a target number. Then returns the indices + 1 that adds up to the target. Where N is numbers.length, time: O(N), space: O(1)
  * @param {number[]} numbers
  * @param {number} target
  */
