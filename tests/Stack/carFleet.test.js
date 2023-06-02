@@ -15,8 +15,14 @@ const tests = [
     },
     {
         inputA: 100,
-        inputB: [0,2,4],
-        inputC: [4,2,1],
+        inputB: [0, 2, 4],
+        inputC: [4, 2, 1],
+        result: 1
+    },
+    {
+        inputA: 10,
+        inputB: [0, 4, 2],
+        inputC: [2, 1, 3],
         result: 1
     }
 ];

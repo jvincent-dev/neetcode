@@ -53,15 +53,15 @@ export default function carFleet(target, position, speed) {
     */
 
     const posAndSpeed = position.map((currPos, index) => [currPos, speed[index]]);
-    const calculateTime = (pos, speed) => (target - pos) / speed;
+    const calculateTime = (pos, spd) => (target - pos) / spd;
 
     posAndSpeed.sort((a, b) => b[0] - a[0]);
 
     let fleetCount = 0;
     let maxTime = 0;
 
-    posAndSpeed.forEach(([pos, speed]) => {
-        const time = calculateTime(pos, speed);
+    posAndSpeed.forEach(([pos, spd]) => {
+        const time = calculateTime(pos, spd);
 
         if (maxTime < time) {
             maxTime = time;
