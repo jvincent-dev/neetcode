@@ -29,3 +29,27 @@ export function binarySearch(nums, target) {
 
     return -1;
 } // time: O(logn), space: O(1)
+
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @param {number | undefined} start
+ * @param {number | undefined} end
+ * @returns {number}
+ */
+
+export function binarySearchRecursive(nums, target, start = 0, end = nums.length - 1) {
+    if (start > end) {
+        return -1;
+    }
+
+    const midpoint = Math.floor((start + end) / 2);
+
+    if (target > nums[midpoint]) {
+        return binarySearch(nums, target, midpoint + 1, end);
+    } else if (target < nums[midpoint]) {
+        return binarySearch(nums, target, start, midpoint - 1);
+    }
+
+    return midpoint;
+}
