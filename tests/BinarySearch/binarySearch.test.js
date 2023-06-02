@@ -1,4 +1,4 @@
-import binarySearch from "../../BinarySearch/binarySearch";
+import { binarySearch } from "../../BinarySearch/binarySearch";
 
 const tests = [
     {

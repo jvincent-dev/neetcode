@@ -20,7 +20,7 @@
  * @param {number[]} speed
  * @return {number}
  */
-export default function carFleet(target, position, speed) {
+export function carFleet(target, position, speed) {
     /**
     t: 12
     p: 10 8 0 5 3

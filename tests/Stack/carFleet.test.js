@@ -1,4 +1,4 @@
-import carFleet from "../../Stack/carFleet";
+import { carFleet } from "../../Stack/carFleet";
 
 const tests = [
     {

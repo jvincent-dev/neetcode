@@ -1,4 +1,4 @@
-import generateParenthesis from "../../Stack/generateParentheses";
+import { generateParenthesis } from "../../Stack/generateParentheses";
 
 const tests = [
     {

@@ -11,7 +11,7 @@
  * @returns {string[]}
  */
 
-export default function generateParenthesis(n, openCount = 0, closeCount = 0, currStr = "", result = []) {
+export function generateParenthesis(n, openCount = 0, closeCount = 0, currStr = "", result = []) {
     if (n * 2 === currStr.length) {
         return result.push(currStr);
     }

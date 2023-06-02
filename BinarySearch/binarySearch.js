@@ -11,7 +11,7 @@
  * @returns {number}
  */
 
-export default function binarySearch(nums, target) {
+export function binarySearch(nums, target) {
     let start = 0;
     let end = nums.length - 1;
 
